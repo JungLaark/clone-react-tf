@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 팀프레시 과제 전형 - 홈페이지 클론 코딩
+    - https://www.teamfresh.co.kr/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## add-on
+    - yarn create react-app teamfresh
+    - yarn add react-router-dom
+    - yarn add styled-components
+    - yarn add redux react-redux
+    - yarn add react-bootstrap
+    - 
+    - yarn add react-id-swiper@latest swiper@latest
+    - header
+    https://levelup.gitconnected.com/how-to-create-a-responsive-hamburger-navigation-menu-reactjs-and-styled-components-59ce167ed543
 
-## Available Scripts
+    - footer 
+    https://codepen.io/magnusriga/pen/bKbWjx
 
-In the project directory, you can run:
+    - swiper
+    https://codesandbox.io/s/hi4ql
+    https://react-id-swiper.ashernguyen.site/
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+회사소개	 company/timf/timfInfo.do
+협력사소개	 company/partner/partnerInfo.do
+고객사소개	 company/customer/customerInfo.do
+오시는 길 	 company/map/timfMap.do
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+새벽배송		business/ts/TS.do
+화물주선		business/lf/LF.do
+풀필먼트		business/fu/FU.do
+그로서리		business/gr/GR.do
 
-### `yarn build`
+공지사항		notice/notice/noticeList.do
+인재채용		notice/employment/employmentList.do
+서비스소개	     notice/serviceinfo/serviceInfo.do
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+보도자료		pressrelease/pressReleaseList.do
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+개인정보 처리방침 main/userpolicy/userPolicy.do
+위치기반 서비스 이용약관 main/locationBasedService/locationBasedService.do
 
-### `yarn eject`
+가산점 add point 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+props로 이미지나 글자 전달 가능? 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+헤더는 그냥 링크만 가지고 있게 하자 
